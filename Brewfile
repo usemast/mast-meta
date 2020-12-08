@@ -1,0 +1,8 @@
+brew "tmux"
+brew "hub"
+brew "python@3.9"
+brew "curl"
+brew "npm"
+brew "fd"
+brew "ripgrep"
+brew "vim"

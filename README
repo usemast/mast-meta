@@ -1,0 +1,7 @@
+* brew bundle
+* install luan's vim
+* symlink dotfiles?
+* add the following to ~/.config/nvim/init.vim:
+    set runtimepath^=~/.vim runtimepath+=~/.vim/after
+    let &packpath=&runtimepath
+    source ~/.vimrc
