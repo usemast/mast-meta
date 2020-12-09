@@ -1,0 +1,24 @@
+" let g:user_emmet_leader_key=','
+" 
+" let NERDTreeAutoDeleteBuffer = 1
+" let NERDTreeMinimalUI = 1
+" let NERDTreeDirArrows = 1
+" 
+" map q: <Nop>
+" nnoremap Q <nop>
+" nmap ; :
+" 
+" set wrap
+" set linebreak
+" 
+" set timeoutlen=1000 ttimeoutlen=0
+" set tabstop=2 shiftwidth=2 expandtab
+" set autoread
+" 
+" " colorscheme molokai
+" colo seoul256-light
+" 
+" au FocusGained,BufEnter * :checktime
+" 
+" :autocmd InsertEnter * set cul
+" :autocmd InsertLeave * set nocul
