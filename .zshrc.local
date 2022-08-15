@@ -5,3 +5,4 @@ eval "$(direnv hook zsh)"
 # Add useful aliases
 alias be='bundle exec'
 alias b='bundle'
+alias gdc='git duet-commit'
