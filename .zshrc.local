@@ -1,0 +1,8 @@
+# Add hooks for essential CLI tools
+eval "$(rbenv init -)"
+eval "$(direnv hook zsh)"
+
+# Add useful aliases
+alias be='bundle exec'
+alias b='bundle'
+alias gdc='git duet-commit'

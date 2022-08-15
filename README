@@ -1,8 +1,11 @@
-* install homebrew
-* brew bundle
-* install luan's vim
-* symlink dotfiles?
-* add the following to ~/.config/nvim/init.vim:
-    set runtimepath^=~/.vim runtimepath+=~/.vim/after
-    let &packpath=&runtimepath
-    source ~/.vimrc
+# mast-meta
+
+## Installation
+
+To get set up, add this line to your `~/.zshrc`, correcting the path as appropriate:
+
+`source ~/workspace/usemast/mast-meta/.zshrc.local`
+
+Optionally symlink the default Mast tmux config to use locally:
+
+`ln -s ~/workspace/usemast/mast-meta/.tmux.conf ~/.tmux.conf`
