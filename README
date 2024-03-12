@@ -2,10 +2,6 @@
 
 ## Installation
 
-To get set up, add this line to your `~/.zshrc`, correcting the path as appropriate:
+Run `./setup` to install/update tools on your machine.
 
-`source ~/workspace/usemast/mast-meta/.zshrc.local`
-
-Optionally symlink the default Mast tmux config to use locally:
-
-`ln -s ~/workspace/usemast/mast-meta/.tmux.conf ~/.tmux.conf`
+This script is run periodically by a cron job.
